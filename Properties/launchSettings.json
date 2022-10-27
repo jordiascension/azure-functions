@@ -1,0 +1,35 @@
+{
+  "profiles": {
+    "UpdateStudent": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "http://localhost:7071/api/UpdateStudent?id=1&name=Pepe&surname=Update&address=Calle"
+    },
+    "DeleteStudent": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "http://localhost:7071/api/DeleteStudent?id=6"
+    },
+    "CreateStudent": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7266",
+      "launchBrowser": true,
+      "launchUrl": "http://localhost:7071/api/CreateStudent?name=Pepe&surname=Prueba&address=Calle"
+    },
+    "GetAllStudents": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "http://localhost:7071/api/GetAllStudents"
+    },
+    "GetStudent": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "http://localhost:7071/api/GetStudent?id=1"
+    },
+    "TimerDeleteAll": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "http://localhost:7071/api/TimerDeleteAll"
+    }
+  }
+}

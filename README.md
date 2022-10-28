@@ -13,3 +13,10 @@ git add .
 git commit -m "Added .gitignore changes"
 git push origin master
 
+-branches
+git checkout -b feature/update-readme
+git add .
+git commit -m "Added .gitignore changes"
+git push origin feature/update-readme
+
+
